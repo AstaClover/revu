@@ -8,7 +8,7 @@ COIN_CLI='revu-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/AstaClover/revu/releases/download/v1.0/revu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Revo'
+COIN_NAME='revu'
 COIN_PORT=31335
 RPC_PORT=31336
 
